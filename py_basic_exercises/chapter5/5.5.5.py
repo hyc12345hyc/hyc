@@ -18,5 +18,5 @@ for n in range(99,81,-1):
         print n
         break
 else:
-        print'didn;t find a number'
+        print'didn\'t find a number'
 
