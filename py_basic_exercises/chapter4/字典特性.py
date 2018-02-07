@@ -21,3 +21,10 @@ print dict
 # del dict['Name'] 删除键是'Name'的条目
 # dict.clear()     清空词典所有条目
 # del dict         删除词典
+
+#len()方法
+#返回字典的元素个数。
+dict = {'Name': 'Zara', 'Age': 7};
+print "Length : %d" % len (dict)
+
+#以上实例输出结果为：Length : 2
