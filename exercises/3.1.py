@@ -7,3 +7,8 @@ for m in range(168):
             x = n ** 2 - 100
             t.append(x)
 print'符合条件的整数有：',t
+
+
+
+
+
