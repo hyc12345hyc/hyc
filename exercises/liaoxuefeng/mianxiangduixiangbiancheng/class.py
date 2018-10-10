@@ -7,7 +7,7 @@ class Student(object):
         self.all = name,score
 
     def print_score(std):
-        print '%s: %s' % (std.name, std.score)
+        print ('%s: %s' % (std.name, std.score))
     def get_grade(self):
         if self.score >= 90:
             return 'A'
@@ -17,10 +17,10 @@ class Student(object):
             return 'C'
 
 bart = Student('Bart Simpson', 59)
-print bart.name
-print bart.score
-print bart.all
+print (bart.name)
+print (bart.score)
+print (bart.all)
 
 bart.print_score()
 
-print bart.get_grade()
+print (bart.get_grade())
