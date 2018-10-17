@@ -2,15 +2,39 @@
 def power(x,y):
     return x ** y
 
+def power1(x,y):
+    result = 1
+    for i in range(y):
+        result = result * x
+    return result
+
 print(power(3,4))
+print("-------")
+print(power1(3,4))
+print("-------")
+
+
 
 #1. 编写一个函数，利用欧几里得算法求最大公约数，例如gcd(x, y)返回值为参数x和参数y的最大公约数。
+
+#标准答案
+def gcd1(x, y):
+    while y:
+        t = x % y
+        x = y
+        y = t
+    return x
+
+print(gcd1(12, 16))
+print("-------")
+
 
 def gcd(x,y):
     list1 = [max(x,y),min(x,y)]                #大数在前
     while list1[-2] % list1[-1] != 0:
         list1.append(list1[-2] % list1[-1])    #循环将余数加入列表末尾，直到余数为零
     return list1[-1]
+print(gcd1(12, 16))
+print("-------")
 
-x,y = int(input('请输入数字1:')),int(input('请输入数字2:'))
-print('数字1和数字2的最大公约数是'+str(gcd(x,y)))#都是字符串才能加起来
+
