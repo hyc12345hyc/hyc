@@ -8,7 +8,7 @@ def f1():
     f2()
     print('from f1')
 f1()
-print('-----')
+print('---------')
 
 #global关键字举例
 #在函数中修改全局变量的值
@@ -19,7 +19,7 @@ def f():
     print(count)
 f()
 print(count)
-print('-----')
+print('---------')
 
 #nonlocal关键字举例
 #在嵌套的函数中，在内部函数修改外部函数的局部变量
@@ -32,6 +32,14 @@ def f():
     return g()
 
 print(f())
-print('-----')
+print('---------')
 
 
+def out1():
+    v = 4
+    def in1():
+        nonlocal v
+        print(v)
+        v = 3
+    in1()
+out1()
