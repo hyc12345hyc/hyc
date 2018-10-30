@@ -1,2 +1,4 @@
-f1 = open(r'C:\Users\Administrator\Desktop\record.txt')
-print(f1.read())
+for i in ['1','2','3','2','2','2']:
+    if '2' in i:
+        a =
+
