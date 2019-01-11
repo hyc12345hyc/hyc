@@ -2,6 +2,7 @@ import urllib.request
 import urllib.parse
 import json
 
+#利用有道词典翻译
 
 content = input('请输入需要翻译的内容：')
 url = 'http://fanyi.youdao.com/translate?smartresult=dict&smartresult=rule'
