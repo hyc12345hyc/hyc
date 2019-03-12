@@ -18,11 +18,3 @@ else:
     print(day)
 
 
-a = int(input('请输入：'))
-while True:
-    if 5<a<10:
-        print(a ** 2)
-        a = int(input('请输入：'))
-    else:
-        a = int(input('请输入：'))
-

@@ -12,8 +12,8 @@ def fib(n):
         b = c
         n -= 1
     return c
-print(fib(30))
-
+print(fib(35))
+print('-----------------')
 #斐波那契数列 递归法
 def fib1(n):
     if n == 1:
@@ -23,5 +23,5 @@ def fib1(n):
     else:
         return fib1(n-1) + fib1(n-2)
 
-print(fib1(30))
+print(fib1(35))
 print('---------')
