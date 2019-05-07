@@ -7,6 +7,7 @@ movies = []
 ranks = []
 messages = []
 years = []
+
 head = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36'}
 
 for x in range(0,10):
