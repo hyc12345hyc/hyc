@@ -20,7 +20,7 @@ def pic2ascii(pic,asciis,zoom,vscale):
     return text
 
 def exe():
-    pic = "lem.jpg"
+    pic = "3.jpg"
     # 字符表示按“灰度级别”从高到低排序
     asciis =  "@%#*+=-:. "
     # 设置缩放系数
