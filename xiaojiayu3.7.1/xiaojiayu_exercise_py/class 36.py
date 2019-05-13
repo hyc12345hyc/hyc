@@ -1,3 +1,4 @@
+# 036类和对象：给大家介绍对象
 #0 定义一个Person类
 class Person:
     name = "turtle"
