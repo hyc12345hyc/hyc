@@ -19,7 +19,7 @@ def pic2ascii(pic,asciis,zoom,vscale):
 
     return text
 
-def exe():
+def run():
     pic = "3.jpg"
     # 字符表示按“灰度级别”从高到低排序
     asciis =  "@%#*+=-:. "
@@ -33,4 +33,4 @@ def exe():
     with open(text_name , 'w') as f:
         f.write(text)
 
-exe()
+run()
