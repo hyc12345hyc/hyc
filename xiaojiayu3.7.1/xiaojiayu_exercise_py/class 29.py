@@ -1,3 +1,4 @@
+# 029文件：一个任务
 #将record分割成几部分
 def save_file(boy,girl,count):
     boy_name = 'boy' + str(count) + '.txt'
