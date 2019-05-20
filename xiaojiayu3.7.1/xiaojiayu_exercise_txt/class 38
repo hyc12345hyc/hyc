@@ -67,3 +67,31 @@ class D(B, C):
 
 
 6. 如何解决上一题中出现的问题？
+答：super 函数再次大显神威。
+
+class E():
+    def __init__(self):
+        print("进入A…")
+        print("离开A…")
+
+
+class F(E):
+    def __init__(self):
+        print("进入B…")
+        super().__init__()
+        print("离开B…")
+
+
+class G(E):
+    def __init__(self):
+        print("进入C…")
+        super().__init__()
+        print("离开C…")
+
+
+class H(F, G):
+    def __init__(self):
+        print("进入D…")
+        super().__init__()
+        print("离开D…")
+
